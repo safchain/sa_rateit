@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="RateIt">If you like this app, please rate it and write nice comments !</string>
+    <string name="Later">Later</string>
+    <string name="Never">Never</string>
+    <string name="Now">Now</string>
+
+</resources>

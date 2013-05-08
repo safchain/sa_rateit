@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="rateit_startThresHold" type="string">3</item>
+
+</resources>
