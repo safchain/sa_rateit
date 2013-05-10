@@ -13,32 +13,36 @@
         android:textAppearance="?android:attr/textAppearanceMedium" />
 
     <LinearLayout
+        android:id="@+id/RateItLayout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:gravity="center_vertical|center_horizontal"
-        android:paddingTop="15dp"
-        android:weightSum="1" >
+        android:orientation="@string/Orientation"
+        android:paddingTop="15dp" >
 
         <Button
             android:id="@+id/laterButton"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.3"
-            android:text="@string/Later" android:textSize="@dimen/FontSize"/>
+            android:layout_weight="1"
+            android:text="@string/Later"
+            android:textSize="@dimen/FontSize" />
 
         <Button
             android:id="@+id/neverButton"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.3"
-            android:text="@string/Never" android:textSize="@dimen/FontSize"/>
+            android:layout_weight="1"
+            android:text="@string/Never"
+            android:textSize="@dimen/FontSize" />
 
         <Button
             android:id="@+id/nowButton"
-            android:layout_width="wrap_content"
+            android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.3"
-            android:text="@string/Now" android:textSize="@dimen/FontSize"/>
+            android:layout_weight="1"
+            android:text="@string/Now"
+            android:textSize="@dimen/FontSize" />
 
     </LinearLayout>
         

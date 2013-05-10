@@ -10,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.LinearLayout;
 
 
 public class RateItActivity extends Activity {
@@ -28,7 +29,7 @@ public class RateItActivity extends Activity {
 				.from(context);
 		final View rateItEntryView = factory
 				.inflate(R.layout.rateit_layout, null);
-
+	
 		final AlertDialog dialog = new AlertDialog.Builder(
 				this).setTitle("Rate It, Please")
 				.setView(rateItEntryView).create();

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <dimen name="FontSize">14dp</dimen>
+    <dimen name="FontSize">16dp</dimen>
+
+    <!-- 0: horizontal, 1:vertical -->
+    <string name="Orientation">1</string>
 
 </resources>

@@ -2,5 +2,8 @@
 <resources>
 
     <dimen name="FontSize">18dp</dimen>
+    
+    <!-- 0: horizontal, 1:vertical -->
+    <string name="Orientation">0</string>
 
 </resources>
